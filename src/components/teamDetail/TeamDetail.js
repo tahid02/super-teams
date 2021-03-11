@@ -93,15 +93,15 @@ const TeamDetail = () => {
 
             {/* social icons and links */}
             <div className='mb-3 mx-1 center_item fs-4'>
-                <a href={`//${strFacebook}`}  >
+                <a href={`//${strFacebook}`} target='_blank' >
                     <FontAwesomeIcon icon={faFacebook} style={{ color: '#3b5998' }} />
                 </a>
 
-                <a href={`//${strTwitter}`}  className='mx-3'>
+                <a href={`//${strTwitter}`}  target='_blank' className='mx-3'>
                     <FontAwesomeIcon icon={faTwitter} style={{ color: '#1DA1F2' }} />
                 </a>
 
-                <a href={`//${strYoutube}`}  >
+                <a href={`//${strYoutube}`}   target='_blank'>
                     <FontAwesomeIcon icon={faYoutube} style={{ color: '#c4302b' }} />
                 </a>
             </div>
