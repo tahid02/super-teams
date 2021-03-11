@@ -1,0 +1,46 @@
+
+.center_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    margin-bottom: 0 ;
+}
+
+
+.playerImage{
+    width: 75%;
+}
+.fontSize{
+    font-size: 1rem;
+}
+
+
+ 
+
+
+
+  @media only screen and (max-width: 360px) {
+
+    .background{
+        height: 20vh;
+        color: #f5eeee;
+    }
+    .badgeSize {
+       width: 35%;
+    }
+    
+    .playerImage{
+        width: 90%;
+    }
+    .fontSize{
+        font-size: .8rem;
+    }
+    .fontSize h4{
+        font-size: 1rem;
+    }
+  }
+
+  
